@@ -425,7 +425,7 @@ body {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: var(--s3);
+  gap: var(--s2);
 }
 
 .role-points li {
