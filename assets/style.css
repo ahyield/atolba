@@ -448,6 +448,25 @@ body {
   background: var(--bullet);
 }
 
+/* inline references out to the public issues and epics behind the work */
+.role-points a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--line-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  transition:
+    color 200ms var(--ease-out),
+    text-decoration-color 200ms var(--ease-out);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .role-points a:hover {
+    color: var(--accent);
+    text-decoration-color: var(--accent);
+  }
+}
+
 /* ── Stack ── */
 .stack {
   display: flex;
