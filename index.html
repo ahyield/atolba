@@ -188,6 +188,14 @@
             CV
           </a>
         </nav>
+
+        <p class="stack">
+          <span class="section-label">Stack</span>
+          <span
+            >Go · Kubernetes · PostgreSQL · Terraform · AWS · GCP ·
+            Prometheus/Thanos/Grafana · Docker · Ruby · Python · GitLab CI</span
+          >
+        </p>
       </aside>
 
       <div class="column">
@@ -215,31 +223,30 @@
               </div>
               <ul class="role-points">
                 <li>
-                  Drove the Supabase-to-PlanetScale production migration
-                  end-to-end: app readiness, cutover sequencing, rollback plan,
-                  and runbook rehearsals, then coordinated the live cutover with
-                  PlanetScale engineers. Zero downtime across 3 core databases
-                  and TBs of data.
+                  Drove the Supabase-to-PlanetScale production migration end-to-end: app
+                  readiness, cutover sequencing, rollback plan, and runbook rehearsals,
+                  then coordinated the live cutover with PlanetScale engineers. Zero
+                  downtime across 3 core databases and TBs of data.
                 </li>
                 <li>
-                  Led the CI migration from GitHub Actions to Depot CI, from
-                  evaluating alternatives through rollout.
+                  Led the CI migration from GitHub Actions to Depot CI, from evaluating
+                  alternatives through rollout.
                 </li>
                 <li>
-                  Contributed to HIPAA compliance work, strengthening
-                  infrastructure security controls.
+                  Planned the disaster recovery framework and wrote the backup and
+                  restore-test runbooks.
                 </li>
                 <li>
-                  Planned the disaster recovery framework and wrote the backup
-                  and restore-test runbooks.
+                  Designed a canary-in-production deployment strategy for safer releases
+                  and faster rollback.
                 </li>
                 <li>
-                  Designed a canary-in-production deployment strategy for safer
-                  releases and faster rollback.
+                  Improved incident management and on-call processes as part of the
+                  Incidents Guild.
                 </li>
                 <li>
-                  Improved incident management and on-call processes as part of
-                  the Incidents Guild.
+                  Contributed to HIPAA compliance work, strengthening infrastructure
+                  security controls.
                 </li>
               </ul>
             </div>
@@ -265,17 +272,17 @@
               </div>
               <ul class="role-points">
                 <li>
-                  Containerized the platform — app and background worker —
-                  unblocking the move from Beanstalk to Kubernetes and
-                  per-tenant provisioning.
+                  Containerized the platform — app and background worker — unblocking the
+                  move from Beanstalk to Kubernetes and per-tenant provisioning.
                 </li>
                 <li>
-                  Provisioned isolated single-tenant environments for customers
-                  via IaC.
+                  Provisioned isolated single-tenant environments for customers via IaC.
                 </li>
                 <li>
-                  Introduced Terraform as the foundation for the hub/spoke
-                  platform.
+                  Introduced Terraform as the foundation for the hub/spoke platform.
+                </li>
+                <li>
+                  Worked across Beanstalk, Kubernetes, Docker, and Prometheus.
                 </li>
               </ul>
             </div>
@@ -300,25 +307,28 @@
               </div>
               <ul class="role-points">
                 <li>
-                  Automated the GitLab release process, removing 75% of the
-                  monthly manual steps.
+                  Engineered and executed Kubernetes cluster rebuilds and application
+                  rollouts, including replacing OpenSSH with GitLab Shell.
                 </li>
                 <li>
-                  Engineered and executed Kubernetes cluster rebuilds and
-                  application rollouts, including replacing OpenSSH with GitLab
-                  Shell.
+                  Built anomaly and bottleneck detection for release pipelines in Go and
+                  Ruby.
                 </li>
                 <li>
-                  Restored production hot patching, keeping it ready for
-                  critical security incidents.
+                  Automated the GitLab release process, removing 75% of the monthly manual
+                  steps.
                 </li>
                 <li>
-                  Built anomaly and bottleneck detection for release pipelines
-                  in Go and Ruby.
+                  Restored production hot patching, keeping it ready for critical security
+                  incidents.
                 </li>
                 <li>
-                  Release Manager — coordinated SaaS and Self-Host delivery; ran
-                  observability on Prometheus, Grafana, Thanos, ES and Kibana.
+                  Ran observability on Prometheus, Grafana, Thanos, ES and Kibana to find
+                  and address system issues across the platform.
+                </li>
+                <li>
+                  Release Manager — coordinated and streamlined releases for timely SaaS
+                  and Self-Host delivery.
                 </li>
               </ul>
             </div>
@@ -341,21 +351,26 @@
               </div>
               <ul class="role-points">
                 <li>
-                  Designed a scalable Prometheus + Thanos setup holding 12+
-                  months of history with minimal query latency.
+                  Designed a scalable Prometheus + Thanos setup holding 12+ months of
+                  history with minimal query latency.
                 </li>
                 <li>
-                  Wrote a lightweight Python alerting proxy bridging air-gapped
-                  Prometheus stacks to existing pipelines, cutting alert
-                  delivery failures by over 95%.
+                  Wrote a lightweight Python alerting proxy bridging air-gapped Prometheus
+                  stacks to existing pipelines, cutting alert delivery failures by over
+                  95%.
                 </li>
                 <li>
-                  Migrated traditional applications to Kubernetes and ECS, with
-                  AWS infrastructure as code in CloudFormation.
+                  Migrated traditional applications to Kubernetes and ECS for better
+                  scalability.
                 </li>
                 <li>
-                  Contributed Python and Go patches upstream to open-source
-                  cloud tooling.
+                  Built infrastructure as code for AWS resources in CloudFormation.
+                </li>
+                <li>
+                  Contributed Python and Go patches upstream to open-source cloud tooling.
+                </li>
+                <li>
+                  Built CI/CD pipelines in Jenkins to streamline deployment.
                 </li>
               </ul>
             </div>
@@ -378,17 +393,22 @@
               </div>
               <ul class="role-points">
                 <li>
-                  Built subscription payment integrations with Adyen, PayPal,
-                  Apple and Google, and the payment adapter into Adidas'
+                  Built subscription payment integrations with Adyen, PayPal, Apple and
+                  Google.
+                </li>
+                <li>
+                  Built the company-wide SLO and error-budget framework with the SRE team.
+                </li>
+                <li>
+                  Architected the payment processing adapter that integrates with Adidas'
                   systems.
                 </li>
                 <li>
-                  Built the company-wide SLO and error-budget framework with the
-                  SRE team.
+                  Coordinated API-level integration releases with partners, holding API
+                  interactions to the required standards.
                 </li>
                 <li>
-                  Designed a scalable microservices architecture in Ruby and
-                  JRuby.
+                  Designed a scalable microservices architecture in Ruby and JRuby.
                 </li>
               </ul>
             </div>
@@ -413,25 +433,17 @@
                   >
                   — <span class="role-title">Founder</span>
                 </span>
-                <span class="role-date">2025 — now</span>
+                <span class="role-date">2025 — 2026</span>
               </div>
               <ul class="role-points">
                 <li>
-                  Phone calls with no SIM and no roaming fee — Go, Next.js and
-                  Telnyx. Bootstrapped to 1k MRR.
+                  Phone calls with no SIM and no roaming fee — Go, Next.js and Telnyx.
+                  Bootstrapped to 1.8k MRR.
                 </li>
               </ul>
             </div>
           </div>
         </section>
-
-        <p class="stack">
-          <span class="section-label">Stack</span>
-          <span
-            >Go · Kubernetes · PostgreSQL · Terraform · AWS · GCP ·
-            Prometheus/Thanos/Grafana · Docker · Ruby · Python · GitLab CI</span
-          >
-        </p>
       </div>
     </main>
   </body>

@@ -1,9 +1,9 @@
 :root {
   --bg: #000;
   --fg: #fff;
-  --fg-mid: #6e6e6e;
-  --fg-faint: #5c5c5c;
-  --label: #5c5c5c;
+  --fg-mid: #8a8a8a;
+  --fg-faint: #7a7a7a;
+  --label: #7a7a7a;
   --line: #191919;
   --line-strong: #4a4a4a;
   --dot: #2f2f2f;
@@ -29,8 +29,8 @@
   --bg: #fff;
   --fg: #111;
   --fg-mid: #6b6b6b;
-  --fg-faint: #9b9b9b;
-  --label: #9b9b9b;
+  --fg-faint: #767676;
+  --label: #767676;
   --line: #e6e6e6;
   --line-strong: #bdbdbd;
   --dot: #d2d2d2;
@@ -452,13 +452,13 @@ body {
 .stack {
   display: flex;
   flex-direction: column;
-  gap: var(--s3);
-  font-size: 0.88rem;
+  gap: var(--s2);
+  font-size: 0.82rem;
   font-weight: 400;
-  color: var(--fg);
-  line-height: 1.9;
+  color: var(--fg-mid);
+  line-height: 1.8;
   opacity: 0;
-  animation: up 0.7s var(--ease-out) 0.9s forwards;
+  animation: up 0.7s var(--ease-out) 0.55s forwards;
 }
 
 @keyframes up {
