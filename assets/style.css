@@ -139,7 +139,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   color: var(--fg);
-  line-height: 1.7;
+  line-height: 1.6;
   text-wrap: pretty;
   opacity: 0;
   animation: up 0.7s var(--ease-out) 0.35s forwards;
@@ -425,7 +425,7 @@ body {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: var(--s2);
+  gap: var(--s3);
 }
 
 .role-points li {
@@ -434,7 +434,7 @@ body {
   font-size: 0.95rem;
   font-weight: 400;
   color: var(--fg);
-  line-height: 1.75;
+  line-height: 1.7;
   text-wrap: pretty;
 }
 
