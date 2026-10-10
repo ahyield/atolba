@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# CV holds direct contact details; reachable by link, not via search results.
+Disallow: /assets/ahmed-tolba-sre.pdf
